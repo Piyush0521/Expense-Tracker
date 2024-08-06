@@ -13,13 +13,20 @@ if(!user){
 }
 
   return ( 
-  <main>
-    <h1>Welcome, {user.firstName}</h1>
-    <Balance/>
-    <IncomeExpense/>
-    <AddTransaction/>
-    <TransactionList/>
-  </main> );
+    <main className="main" >
+    <div className="column">
+      <h1>Welcome, {user.firstName}</h1>
+      <Balance/>
+      <IncomeExpense/>
+    <div  className="column">
+      <AddTransaction/>
+    </div>
+    </div>
+    <div className="column" style={{padding: '0px 20px 20px 30px'}}>
+      <TransactionList/>
+    </div>
+  </main>
+   );
 }
  
 export default HomePage;

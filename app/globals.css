@@ -195,3 +195,18 @@ input[type="number"] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+/* HomePage.css */
+.main {
+  display: grid;
+  grid-template-columns: 70% 50%;
+  gap: 30px;
+  padding: 20px;
+}
+
+.column {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
