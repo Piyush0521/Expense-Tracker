@@ -3,5 +3,5 @@ export interface Transaction {
     text: string,
     amount: number,
     userId: string,
-    createdAt: Date
+    createdAt: Date,
 }
